@@ -556,6 +556,7 @@ nav.navbar.bg-light.purple {
     background-color: #D9D9D9;
     background-image: url(w3schools.png);
     background-size: contain;
+    transition: transform .5s;
   }
 
 
@@ -566,6 +567,7 @@ nav.navbar.bg-light.purple {
     background-color: #D9D9D9;
     background-image: url(animista.png);
     background-size: contain;
+    transition: transform .5s;
   }
 
   .helpbuttonsm {
@@ -575,33 +577,19 @@ nav.navbar.bg-light.purple {
     background-color: #D9D9D9;
     background-image: url(mozilla.webp);
     background-size: contain;
+    transition: transform .5s;
   }
 
 
   .helpbuttonsw:hover {
-    position: absolute;
-    width: 20em;
-    height: 20em;
-    background-color: #D9D9D9;
-    background-image: url(w3schools.png);
-    background-size: contain;
+    transform: scale(1.25);
   }
 
 
   .helpbuttonsa:hover {
-    position: absolute;
-    width: 20em;
-    height: 20em;
-    background-color: #D9D9D9;
-    background-image: url(animista.png);
-    background-size: contain;
+    transform: scale(1.25);
   }
 
   .helpbuttonsm:hover {
-    position: absolute;
-    width: 20em;
-    height: 20em;
-    background-color: #D9D9D9;
-    background-image: url(mozilla.webp);
-    background-size: contain;
+    transform: scale(1.25);
   }
