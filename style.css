@@ -542,3 +542,66 @@ nav.navbar.bg-light.purple {
     position: relative;
     animation: walker 5s infinite;
   }
+
+
+  .help {
+    margin-top: 5%;
+    font-size: 700%;
+  }
+
+  .helpbuttonsw {
+    position: absolute;
+    width: 20em;
+    height: 20em;
+    background-color: #D9D9D9;
+    background-image: url(w3schools.png);
+    background-size: contain;
+  }
+
+
+  .helpbuttonsa {
+    position: absolute;
+    width: 20em;
+    height: 20em;
+    background-color: #D9D9D9;
+    background-image: url(animista.png);
+    background-size: contain;
+  }
+
+  .helpbuttonsm {
+    position: absolute;
+    width: 20em;
+    height: 20em;
+    background-color: #D9D9D9;
+    background-image: url(mozilla.webp);
+    background-size: contain;
+  }
+
+
+  .helpbuttonsw:hover {
+    position: absolute;
+    width: 20em;
+    height: 20em;
+    background-color: #D9D9D9;
+    background-image: url(w3schools.png);
+    background-size: contain;
+  }
+
+
+  .helpbuttonsa:hover {
+    position: absolute;
+    width: 20em;
+    height: 20em;
+    background-color: #D9D9D9;
+    background-image: url(animista.png);
+    background-size: contain;
+  }
+
+  .helpbuttonsm:hover {
+    position: absolute;
+    width: 20em;
+    height: 20em;
+    background-color: #D9D9D9;
+    background-image: url(mozilla.webp);
+    background-size: contain;
+  }
