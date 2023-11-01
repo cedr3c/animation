@@ -90,12 +90,6 @@ nav.navbar.bg-light {
 }
 
 
-@media only screen and (max-width: 820px){
-    .titel {
-        font-size: 300%;
-        margin-left: -20px;
-    }
-}
 
 .db {
     background-color: darkblue;
@@ -155,7 +149,7 @@ nav.navbar.bg-light {
   .rec {
     width: 35%;
     height: 180%;
-    background-color: #red;
+    background-color: red;
     margin-top: 20%;
     margin-left: 50%;
     transform: translate(-50%, 0);
@@ -593,3 +587,117 @@ nav.navbar.bg-light.purple {
   .helpbuttonsm:hover {
     transform: scale(1.25);
   }
+
+
+@media only screen and (max-width: 820px){
+    .recl {
+      width: 20%;
+      height: 95%;
+      background-color: yellow;
+      margin-top: 20%;
+      margin-left: 10%;
+      animation: walker 5s infinite;
+    }
+
+    .titel {
+        font-size: 300%;
+        margin-left: -20px;
+    }
+    .rec {
+      width: 35%;
+      height: 180%;
+      background-color: red;
+      margin-top: 20%;
+      margin-left: 42%;
+      transform: translate(-50%, 0);
+      animation: colorchanger 10s infinite;
+    }
+    .Aanimation {
+      margin-top: 50%;
+      font-size: 1000%;
+      color: black;
+    }
+    .word {
+      font-size: 100%;
+      width: 90%;
+    }
+    .white {
+      font-size: 200%;
+      margin-left: -35%;
+    }
+    .paragraph {
+      font-size: 60%;
+      margin-left: -35%;
+      width: 500%;
+    }
+    .rec2 {
+      margin-left: -45%;
+      margin-top: 30%;
+      height: 2em;
+      width: 2em;
+    }
+    @keyframes walker {
+    0%   {background-color:yellow; left:0px; top:0px;}
+    25%  {background-color:red; left:100px; top:0px;}
+    50%  {background-color:blue; left:100px; top:100px;}
+    75%  {background-color:green; left:0px; top:100px;}
+    100% {background-color:yellow; left:0px; top:0px;}
+    }
+
+    .help {
+      margin-top: 20%;
+      margin-left: -5%;
+    }
+
+    .helpbuttonsw {
+      position: relative;
+      width: 15em;
+      height: 15em;
+      background-color: #D9D9D9;
+      background-image: url(w3schools.png);
+      background-size: contain;
+      margin-bottom: 2em;
+    }
+  
+  
+    .helpbuttonsa {
+      position: relative;
+      width: 15em;
+      height: 15em;
+      background-color: #D9D9D9;
+      background-image: url(animista.png);
+      background-size: contain;
+      margin-bottom: 2em;
+    }
+  
+    .helpbuttonsm {
+      position: relative;
+      width: 15em;
+      height: 15em;
+      background-color: #D9D9D9;
+      background-image: url(mozilla.webp);
+      background-size: contain;
+      margin-bottom: 2em;
+    }
+  
+  
+    .helpbuttonsw:hover {
+      transform: scale(1);
+    }
+  
+  
+    .helpbuttonsa:hover {
+      transform: scale(1);
+    }
+  
+    .helpbuttonsm:hover {
+      transform: scale(1);
+    }
+
+}
+
+
+/*html,body{
+  overflow-x: hidden;
+  overflow-y: auto;
+}
