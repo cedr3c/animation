@@ -696,9 +696,3 @@ nav.navbar.bg-light.purple {
     }
 
 }
-
-
-html,body{
-  overflow-x: hidden;
-  overflow-y: auto;
-}
